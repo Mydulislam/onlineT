@@ -1,0 +1,7 @@
+*** Need CSS ***
+
+1) box-sizing
+2) display:flex
+3) height,width,min,max
+4) font-weight
+5) clip-path

@@ -1,0 +1,2 @@
+1) Two blocks loading animation using css
+2) Two block loading difference way.

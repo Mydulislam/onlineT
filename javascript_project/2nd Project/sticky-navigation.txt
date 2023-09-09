@@ -1,0 +1,9 @@
+1) Create Html and Css Design 
+2) Using  Vanila javascript
+
+*** Need Csss ***
+
+1) box-sizing
+2) height,width,min-heiht,max-height,min-width,max-width
+3) position
+4) 

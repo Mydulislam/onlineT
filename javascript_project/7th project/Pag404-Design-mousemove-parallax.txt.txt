@@ -1,0 +1,7 @@
+1) Pag404 Page Design and using mouseMoveEvent
+2) Using Background Image and mousemove
+
+*** Need Csss ***
+
+1) box-sizing
+2) height,width,max-height,min-height,max-width,min-width

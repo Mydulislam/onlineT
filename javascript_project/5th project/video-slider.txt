@@ -1,0 +1,10 @@
+1) Clicking Video and playing.
+2) Using Vanila Javascript.
+
+*** Need Csss ***
+
+1) box-sizing
+2) height,width(min,max)
+3) object-fit
+4) transform
+5) transition

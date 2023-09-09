@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #262626;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.pulse{
+    width:100px;
+    height:100px;
+    background: #ff6d4a;
+    border-radius: 52%;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 0 rgba(255,109,74,.7),0 0 0 0 rgba(255,109,74,.7);
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0),0 0 0 0 rgba(255,109,74,.7);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(255,109,74,0),0 0 0 30px rgba(255,109,74,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255,100,74,0),0 0 0 30px rgba(255,109,74,0);
+    }
+}

@@ -1,0 +1,6 @@
+1) Scroll and transform effects change 
+
+*** Need Csss ***
+1) background-blend-mode
+2) transform
+3) transform-origin

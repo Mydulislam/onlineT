@@ -1,0 +1,14 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) position
+4) background
+5) transform
+6) display:flex
+7) overflow
+8) transition
+9) width: calc(100% - 60px);
+10) white-space: nowrap;
+11) transition: height 0.5s , width 0.5s;
+    transition-delay: 0s , 0.75s;

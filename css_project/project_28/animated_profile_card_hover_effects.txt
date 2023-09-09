@@ -1,0 +1,13 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) background: linear-gradient(45deg, #fbda61,#ff5acd);
+4) transform
+5) overflow
+6) object
+7) position
+8) display:flex,flex-direction,align-item,justify-content
+9) line-height
+10) gap
+11) 

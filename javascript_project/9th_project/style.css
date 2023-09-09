@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width:1100px;
+}
+.container .imgIcon{
+    position: relative;
+    width:50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .imgIcon .iconBox{
+    position:relative;
+    width: calc(50% - 40px);
+    margin:0 30px 30px 0;
+    padding:0 25px;
+    /* height:140px; */
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    border-radius: 4px;
+    box-shadow:  0 5px 15px rgba(0,0,0,.07);
+}
+.container .imgIcon .iconBox.active{
+    box-shadow:  0 10px 30px rgba(0,0,0,.1);
+}
+.container .imgIcon .iconBox img{
+    max-width: 100%;
+    filter: grayscale(1);
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+.container .imgIcon .iconBox.active img{
+    filter: grayscale(0);
+    transform: scale(1);
+}
+
+.iconContent{
+    position: relative;
+    width:50%;
+    overflow: hidden;
+}
+.iconContent .contentBox{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+.iconContent .contentBox.active{
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+.iconContent .contentBox .text img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.iconContent .contentBox .text h2{
+    font-size: 3em;
+}
+img{
+    width:200px;
+    height:200px;
+}

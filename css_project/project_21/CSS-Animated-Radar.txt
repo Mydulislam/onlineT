@@ -1,0 +1,12 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) background
+4) box-shadow
+5) overflow
+6) filter
+7) animation
+8) transform
+9) background:linear-gradient(45deg, #00ff00 0%, transparent 50%);
+10) transform-origin: top left;

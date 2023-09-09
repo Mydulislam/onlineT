@@ -1,0 +1,10 @@
+1) Moving Mouse And Colorful Heart Trail And automatic opacity 0 or remove it
+
+*** Need Csss ***
+
+1) box-sizing
+2) overflow
+3) width,height(min,max)
+4) pointer-events
+5) transform
+6) filter

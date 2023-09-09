@@ -1,0 +1,13 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) flex-direction
+4) gap
+5) position
+6) transform
+7) pointer-event
+8) border-left
+9) background
+10) border-radius
+11) border-top-left-radius

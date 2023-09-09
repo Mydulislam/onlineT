@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #262626;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    width:40px;
+    height:40px;
+    background:gray;
+    margin:0 10px;
+    border-radius: 50%;
+    animation: animate 1.6s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,40%,100%{
+        transform: scale(0.2);
+    }
+    20%{
+        transform: scale(1);
+    }
+}
+ul li:nth-child(1){
+    animation-delay: -1.4s;
+    background: #ffff00;
+    box-shadow: 0 0 50px #ffff00;
+}
+ul li:nth-child(2){
+
+    animation-delay: -1.2s;
+    background: #76FF03;
+    box-shadow: 0 0 50px #76FF03;
+}
+ul li:nth-child(3){
+    animation-delay: -1s;
+    background: #F06292;
+    box-shadow: 0 0 50px #F06292;
+}
+ul li:nth-child(4){
+    animation-delay: -0.8s;
+    background: #4FC3F7;
+    box-shadow: 0 0 50px #4FC3F7;
+}
+ul li:nth-child(5){
+    animation-delay: -0.6s;
+    background: #BA68C8;
+    box-shadow: 0 0 50px #BA68C8;
+}
+ul li:nth-child(6){
+    animation-delay: -0.4s;
+    background: #f59739;
+    box-shadow: 0 0 50px #f59739;
+}
+ul li:nth-child(7){
+    animation-delay: -0.2s;
+    background: #673AB7;
+    box-shadow: 0 0 50px #673AB7;
+}

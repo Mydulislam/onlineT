@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Slider Using css and Vanila javascrip</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <section>
+        <video id="slider" autoplay muted loop>
+            <source src="./Assubhu_Bada.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoUrl('Assubhu_Bada.mp4')"><img src="./Capture1.jpg" alt=""></li>
+            <li onclick="videoUrl('আদরও_করিয়া_আল্লাহ.mp4')"><img src="./Capture2.jpg" alt=""></li>
+            <li onclick="videoUrl('আরিফ_আজাদ.mp4')"><img src="./Capture3.jpg" alt=""></li>
+            <li onclick="videoUrl('Najater_bani.mp4')"><img src="./Capture4.jpg" alt=""></li>
+        </ul>
+    </section>
+</body>
+</html>

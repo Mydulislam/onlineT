@@ -1,0 +1,2 @@
+1) In body background bubbles effect animation.
+2) Automatic bubbles playing

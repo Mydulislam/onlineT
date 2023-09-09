@@ -1,0 +1,9 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) text-shadow
+4) background
+5) animation
+6) filter
+7) display: table-cell

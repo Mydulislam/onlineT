@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:url(./earth1.jpg);
+    background-size:cover;
+}
+div{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div h1{
+    border:4px solid #fff;
+    color:#fff;
+    font-size: 10em;
+    padding:20px 50px;
+    border-radius: 10px;
+    transform: skewY(-5deg);
+    box-shadow: 0 0 10px #1eff4e , 0 0 30px #1eff4e,
+     inset 0 0 10px #1eff4e, inset 0 0 30px #1eff4e;
+    text-shadow: 0 0 10px #1eff4e , 0 0 20px #1eff4e, 0 0 80px #1eff4e , 0 0 120px #1eff4e;
+    animation: animate .1s linear infinite;
+}
+div h1::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:4px;
+    background: #fff;
+    left:0;
+    bottom:80px;
+    box-shadow: 0 0 10px #1eff4e , 0 0 30px #1eff4e;
+    z-index: -1;
+}
+div h1::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:4px;
+    background: #fff;
+    left:0;
+    top:100px;
+    box-shadow: 0 0 10px #1eff4e , 0 0 30px #1eff4e;
+    z-index: -1;
+}
+div h1 span{
+    animation:animate .5s linear infinite;
+}
+div h1 span:nth-child(1){
+    animation-delay: .25s;
+}
+div h1 span:nth-child(2){
+    animation-delay: .2s;
+}
+div h1 span:nth-child(3){
+    animation-delay: .35s;
+}
+div h1 span:nth-child(4){
+    animation-delay: .4s;
+}
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: .5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

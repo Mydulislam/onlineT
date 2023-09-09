@@ -1,0 +1,8 @@
+*** Need Css ***
+
+1) box-sizing
+2) height,width,min,max
+3) background
+4) animation
+5) line-height
+6) box-shadow: 0 0 0 0 rgba(255,100,74,0),0 0 0 30px rgba(255,109,74,0);

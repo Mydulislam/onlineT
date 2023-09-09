@@ -1,0 +1,12 @@
+*** Need CSS ***
+
+1) box-sizing
+2) height,width,(min,max)
+3) display:flex;
+4) flex-wrap
+5) position
+6) width: calc()
+7) filter
+8) overflow
+9) transform
+10) 
